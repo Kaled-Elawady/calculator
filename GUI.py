@@ -44,8 +44,8 @@ def one_del_def():
     global text
     if text == "" :
         None
-    else :
-        text = text.rstrip(text[-1])
+    else: 
+        text = text[:-1]
         calculator.set(text)
 
 
